@@ -1,0 +1,20 @@
+# dsh-session-bundle — insert this bundle into a DSH profile.
+#
+# Defaults write to Desktop/DSH-Exports (or <home>/DSH-Exports) and include:
+#   conversation.md + session.v4.jsonl + manifest.json
+#   files/       attachments and explicit produced files
+#   workspace/   files changed during the session
+#
+# Override in your own profile layer when needed:
+#
+#   - id: dsh-session-bundle
+#     config:
+#       outputDir: 'D:/exports'
+#       includeWorkspace: auto      # auto | always | never
+#       includeAttachments: true
+#       includeRawLog: true
+#       includeReasoning: false
+#
+- insert:
+    - id: dsh-session-bundle
+      name: dsh-session-bundle
