@@ -1,8 +1,8 @@
 # dsh-session-bundle
 
-**One command, one ZIP: a readable conversation + the files this session actually produced + every attachment.** `/bundle` in DSH, or ask the agent to `export_session_bundle`.
+**English** · [中文](README.zh.md)
 
-[中文说明](README.zh.md)
+**One command, one ZIP: a readable conversation + the files this session actually produced + every attachment.** `/bundle` in DSH, or ask the agent to `export_session_bundle`.
 
 ---
 
