@@ -1,8 +1,6 @@
 # dsh-session-bundle
 
-**中文** 路 [<kbd>English</kbd>](README.en.md)
-
-**中文** · [English](README.md)
+**中文** · [<kbd>English</kbd>](README.en.md)
 
 **一条命令，一个 ZIP：可读对话 + 本会话真正产出的文件 + 全部附件。** 在 DSH 里输入 `/bundle`，或让 agent 调用 `export_session_bundle`。
 
