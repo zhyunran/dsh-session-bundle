@@ -1,62 +1,62 @@
 {
-  "name": "dsh-session-bundle",
-  "version": "0.1.2",
-  "description": "One-command DSH export: readable conversation Markdown + the files this session produced/changed + attachments, bundled into a ZIP on the Host.",
-  "type": "module",
-  "main": "./lib/index.js",
-  "exports": {
-    ".": "./lib/index.js",
-    "./cordis.patch.yml": "./cordis.patch.yml",
-    "./package.json": "./package.json"
-  },
-  "files": [
-    "lib",
-    "cordis.patch.yml",
-    "README.md",
-    "README.zh.md",
-    "CHANGELOG.md",
-    "LICENSE"
-  ],
-  "dsh": {
-    "manifestVersion": 1,
-    "bundle": {
-      "patch": "./cordis.patch.yml"
-    }
-  },
-  "peerDependencies": {
-    "@deepseek-ai/dsh-tools": ">=0.2.0-rc.1 <0.3.0"
-  },
-  "engines": {
-    "node": ">=22.19.0"
-  },
-  "scripts": {
-    "test": "node --test test/*.test.mjs"
-  },
-  "keywords": [
-    "dsh",
-    "dsh-plugin",
-    "deepseek-harness",
-    "deepseek",
-    "cordis",
-    "export",
-    "conversation",
-    "transcript",
-    "session",
-    "zip",
-    "backup",
-    "导出"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zhyunran/dsh-session-bundle.git"
-  },
-  "homepage": "https://github.com/zhyunran/dsh-session-bundle#readme",
-  "bugs": {
-    "url": "https://github.com/zhyunran/dsh-session-bundle/issues"
-  },
-  "license": "MIT",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org",
-    "access": "public"
-  }
+    "name":  "dsh-session-bundle",
+    "version":  "0.1.2",
+    "description":  "One-command DSH export: readable conversation Markdown + the files this session produced/changed + attachments, bundled into a ZIP on the Host.",
+    "type":  "module",
+    "main":  "./lib/index.js",
+    "exports":  {
+                    ".":  "./lib/index.js",
+                    "./cordis.patch.yml":  "./cordis.patch.yml",
+                    "./package.json":  "./package.json"
+                },
+    "files":  [
+                  "lib",
+                  "cordis.patch.yml",
+                  "README.md",
+                  "CHANGELOG.md",
+                  "LICENSE",
+                  "README.en.md"
+              ],
+    "dsh":  {
+                "manifestVersion":  1,
+                "bundle":  {
+                               "patch":  "./cordis.patch.yml"
+                           }
+            },
+    "peerDependencies":  {
+                             "@deepseek-ai/dsh-tools":  "\u003e=0.2.0-rc.1 \u003c0.3.0"
+                         },
+    "engines":  {
+                    "node":  "\u003e=22.19.0"
+                },
+    "scripts":  {
+                    "test":  "node --test test/*.test.mjs"
+                },
+    "keywords":  [
+                     "dsh",
+                     "dsh-plugin",
+                     "deepseek-harness",
+                     "deepseek",
+                     "cordis",
+                     "export",
+                     "conversation",
+                     "transcript",
+                     "session",
+                     "zip",
+                     "backup",
+                     "导出"
+                 ],
+    "repository":  {
+                       "type":  "git",
+                       "url":  "git+https://github.com/zhyunran/dsh-session-bundle.git"
+                   },
+    "homepage":  "https://github.com/zhyunran/dsh-session-bundle#readme",
+    "bugs":  {
+                 "url":  "https://github.com/zhyunran/dsh-session-bundle/issues"
+             },
+    "license":  "MIT",
+    "publishConfig":  {
+                          "registry":  "https://registry.npmjs.org",
+                          "access":  "public"
+                      }
 }
