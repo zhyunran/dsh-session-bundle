@@ -1,6 +1,6 @@
 # dsh-session-bundle
 
-**English** 路 [**涓枃**](README.md)
+**English** 路 [<kbd>中文</kbd>](README.md)
 
 
 **One command, one ZIP: a readable conversation + the files this session actually produced + every attachment.** `/bundle` in DSH, or ask the agent to `export_session_bundle`.
